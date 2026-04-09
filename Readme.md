@@ -1,36 +1,60 @@
-1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
-answer:
-* getElementById selects a single element by its unique ID.
-* getElementsByClassName selects all elements with a specific class.
-* querySelector select a first element that matches a css selector.
-* querySelectorAll selects all ekements matching a css selector .
+# Job Application Tracker  
 
+## 📌 Project Overview  
+Job Application Tracker Dashboard is a responsive web application that allows users to manage and track job applications in an organized way. Users can view all available jobs, mark them as Interview or Rejected, and monitor their progress through a clean dashboard interface.
 
+This project focuses on DOM manipulation, event handling, and dynamic UI updates using JavaScript (ES6)  
 
-2. How do you create and insert a new element into the DOM?
-answer:
-* Create a new element using document.createElment.Set its content or attributes.Insert it into the DOM using appendChiild or insertBefore.
+---
 
 
+## ⚙️ Technologies Used 
 
-3. What is Event Bubbling? And how does it work?
+- Tailwind CSS  
+- HTML5  
+- DOM manipulation,
+- CSS3  
+- JavaScript (ES6)  
 
-answer:
-* Event Bubbling is when you click a child element , the event also goes up to its parents.Like- child-parent-grandparent automatically unless i stop it 
+---
+## ✨ Key Features  
+
+-   Add new job applications
+-   Track job details like title, company, and dates
+-   Manage interview and rejection information
+-   Simple and clean user interface
+-   Helps users stay organized during job search
+-   Fast and responsive performance
+
+---
+
+## 📦 Dependencies   
 
 
+- HTML5  
+- Tailwind CSS  
+- DOM manipulation,
+- CSS3  
+- JavaScript (ES6)  
 
-4. What is Event Delegation in JavaScript? Why is it useful?
+---
 
-answer:
-* Event Delegateion means puttting one event listener on a parent to handle events for all its children.It is useful because it saves memory and one listener controls many children
+## 🚀 Run Locally  
+
+```bash
+git clone https://github.com/your-username/job-application-tracker.git
+cd job-application-tracker
+open index.html
+```
 
 
+---
 
+## 🔗 Live Link  
+🌍Live Website: [https://job-application-tracker-javascript.netlify.app/
 
-5. What is the difference between preventDefault() and stopPropagation() methods?
+🌍GitHub: https://surayaafroze.github.io/GitHub_Issues_Tracker/ 
 
-answer:
-* preventDefault() stops the browser's default action 
-* stopPropagation() stops the event from going up to parent elements
+---
+
